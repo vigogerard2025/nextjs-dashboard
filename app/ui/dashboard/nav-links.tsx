@@ -9,7 +9,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
 
-// Reemplaza o agrega más enlaces aquí según las rutas de tu dashboard
 const links = [
   { name: "Home", href: "/dashboard", icon: HomeIcon },
   {
