@@ -16,7 +16,11 @@ const links = [
     href: "/dashboard/invoices",
     icon: DocumentDuplicateIcon,
   },
-  { name: "Customers", href: "/dashboard/customers", icon: UserGroupIcon },
+  {
+    name: "Customers",
+    href: "/dashboard/customers",
+    icon: UserGroupIcon,
+  },
 ];
 
 export default function NavLinks() {
@@ -26,6 +30,7 @@ export default function NavLinks() {
     <>
       {links.map((link) => {
         const LinkIcon = link.icon;
+
         return (
           <Link
             key={link.name}
